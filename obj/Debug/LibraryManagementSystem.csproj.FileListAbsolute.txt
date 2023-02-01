@@ -1,0 +1,6 @@
+c:\users\steve\documents\visual studio 2013\Projects\LibraryManagementSystem\LibraryManagementSystem\bin\LibraryManagementSystem.dll.config
+c:\users\steve\documents\visual studio 2013\Projects\LibraryManagementSystem\LibraryManagementSystem\bin\LibraryManagementSystem.dll
+c:\users\steve\documents\visual studio 2013\Projects\LibraryManagementSystem\LibraryManagementSystem\bin\LibraryManagementSystem.pdb
+c:\users\steve\documents\visual studio 2013\Projects\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csprojResolveAssemblyReference.cache
+c:\users\steve\documents\visual studio 2013\Projects\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.dll
+c:\users\steve\documents\visual studio 2013\Projects\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb

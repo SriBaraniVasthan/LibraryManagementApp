@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LibraryManagementSystem.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div>
+           <h1>Library Management System</h1> 
+        </div>
+
+<div>
+    <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" ForeColor="#990000" Height="30px" Orientation="Horizontal" RenderingMode="Table" StaticSubMenuIndent="10px" Width="100%">
+        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+        <DynamicMenuStyle BackColor="#FFFBD6" />
+        <DynamicSelectedStyle BackColor="#FFCC66" />
+        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+        <StaticSelectedStyle BackColor="#FFCC66" />
+       <Items>
+            <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home" ></asp:MenuItem> 
+            <asp:MenuItem NavigateUrl="~/ReturnBook.aspx" Text="Return Book"></asp:MenuItem>
+            <asp:MenuItem NavigateUrl="~/ViewcurrentTrasactionPage.aspx" Text="View current Trasaction Page"></asp:MenuItem>
+        </Items>
+    </asp:Menu>
+</div>
+        <br /><br />
+        <div>
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+   
+
+        <asp:LinkButton ID="LinkButton1" runat="server" style="margin-left: 913px" Width="105px" BackColor="Yellow" OnClick="LinkButton1_Click" CausesValidation="False">LOG OUT</asp:LinkButton>
+
+   </div>
+          <br /><br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
